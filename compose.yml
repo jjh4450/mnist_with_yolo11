@@ -1,0 +1,8 @@
+services:
+  aihub:
+    image: ghcr.io/jjh4450/aihubshell_unofficial:latest
+    container_name: aihubshell_container
+    volumes:
+      - ./data/default:/data
+    tty: true
+    stdin_open: true
